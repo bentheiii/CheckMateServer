@@ -92,6 +92,6 @@ class Server:
         self.startManage(conGenerator(self))
     def __del__(self):
         for i in self.managedThreads:
-            self.unManage(t)
+            self.unManage(i)
 
 
