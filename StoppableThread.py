@@ -1,5 +1,5 @@
 import threading
-
+#a thread that can be stopped remotely
 class StoppableThread(threading.Thread):
     def __init__(self):
         super(StoppableThread, self).__init__()
